@@ -57,7 +57,7 @@ renderer.outputColorSpace = THREE.SRGBColorSpace;
 const controls = new PointerLockControls(camera, document.body);
 //
 const textureLoader = new THREE.TextureLoader();
-const texturaNube = textureLoader.load("/Imágenes/nube.png");
+const texturaNube = textureLoader.load("/Imágenes/UNSXX.png");
 const materialNube = new THREE.MeshBasicMaterial({
     map: texturaNube,
     transparent: true,
